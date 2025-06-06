@@ -3,8 +3,8 @@ plugins {
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_17
-    targetCompatibility = JavaVersion.VERSION_17
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
 }
 
 dependencies {
@@ -12,6 +12,10 @@ dependencies {
     implementation libs.annotation.jvm
     compileOnly 'com.google.auto.service:auto-service:1.0-rc4'
     annotationProcessor 'com.google.auto.service:auto-service:1.0-rc4'
+
+    implementation 'org.ow2.asm:asm:9.8'
+    implementation 'org.ow2.asm:asm-commons:9.8'
+
 }
 
 //tasks.withType(JavaCompile) {

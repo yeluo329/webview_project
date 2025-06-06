@@ -8,6 +8,7 @@ constraintlayout = "2.2.1"
 kotlin = "1.9.0"
 annotationJvm = "1.9.1"
 autoService = "1.0-rc4"
+jetbrainsKotlinJvm = "1.9.0"
 
 [libraries]
 appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
@@ -21,4 +22,5 @@ autoService = { group = "com.google.auto.service", name = "auto-servic", version
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrainsKotlinJvm" }
 
