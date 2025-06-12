@@ -38,10 +38,12 @@ dependencies {
     implementation libs.activity
     implementation libs.constraintlayout
 
-    annotationProcessor project(':compiler')
-    implementation project(':compiler')
+//    implementation 'org.ow2.asm:asm:7.1'
+//    implementation 'org.ow2.asm:asm-commons:7.1'
+//
+//
+//    annotationProcessor project(':compiler')
+//    implementation project(':compiler')
 
 
-    implementation 'org.ow2.asm:asm:7.1'
-    implementation 'org.ow2.asm:asm-commons:7.1'
 }
