@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Apt_java_project"
         tools:targetApi="31">
+
         <activity
             android:name=".asm.MainActivity2"
             android:exported="true">
@@ -20,12 +21,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-        </activity>
-        <activity
-            android:name=".asm.MainActivity"
-            android:exported="true">
-
         </activity>
     </application>
 
