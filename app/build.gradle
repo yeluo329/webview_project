@@ -37,6 +37,7 @@ dependencies {
     implementation libs.material
     implementation libs.activity
     implementation libs.constraintlayout
+    implementation libs.kotlinReflect
 
 //    implementation 'org.ow2.asm:asm:7.1'
 //    implementation 'org.ow2.asm:asm-commons:7.1'
